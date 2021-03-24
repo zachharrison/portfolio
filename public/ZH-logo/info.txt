@@ -1,0 +1,11 @@
+
+Hope you enjoy your new logo, here are the people that
+made your beautiful logo happen :)
+font name: HKVenetian-Italic
+font link: https://hanken.co/product/hk-venetian/
+font author: Hanken Design Co.
+font author site: https://hanken.co/
+
+
+{"bg":"#3E0848","icon":"#D3316B","font":"#D3316B","slogan":"#e7457f"}
+      

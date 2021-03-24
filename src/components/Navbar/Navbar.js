@@ -26,7 +26,20 @@ const Navbar = () => {
 
   return (
     <nav className='navbar' style={{ top: visible ? '0' : '-100px' }}>
-      Navbar
+      <div className='nav-container'>
+        <img className='logo' src='/ZH-logo/profile.png' alt='logo' />
+        <ul className='nav-links'>
+          <li>
+            <a href='#'>About</a>
+          </li>
+          <li>
+            <a href='#'>Work</a>
+          </li>
+          <li>
+            <a href='#'>Contact</a>
+          </li>
+        </ul>
+      </div>
     </nav>
   );
 };
