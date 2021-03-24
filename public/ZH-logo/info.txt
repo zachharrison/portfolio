@@ -7,5 +7,9 @@ font author: Hanken Design Co.
 font author site: https://hanken.co/
 
 
-{"bg":"#3E0848","icon":"#D3316B","font":"#D3316B","slogan":"#e7457f"}
+
+fontColor: {"hex":"#fff"}
+bgColor: {"hex":"#3979FF"}
+
+
       

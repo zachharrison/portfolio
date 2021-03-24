@@ -1,0 +1,14 @@
+.showcase {
+  /* background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(198, 8, 50, 1) 65%
+  ); */
+  width: 100%;
+  height: 100vh;
+
+  background: #3d1a48;
+  background: -webkit-linear-gradient(top left, #1f2227 0%, #437aed 100%);
+  background: linear-gradient(to bottom right, #1f2227 0%, #437aed 100%);
+}

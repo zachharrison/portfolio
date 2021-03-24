@@ -1,9 +1,11 @@
 import Navbar from './components/Navbar/Navbar';
+import Showcase from './components/Showcase/Showcase';
 
 const App = () => {
   return (
     <>
       <Navbar />
+      <Showcase />
       <div>
         <p>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate

@@ -25,7 +25,7 @@ const Navbar = () => {
   }, [visible, prevScrollPos, handleScroll]);
 
   return (
-    <nav className='navbar' style={{ top: visible ? '0' : '-100px' }}>
+    <nav className='navbar' style={{ top: visible ? '0' : '-120px' }}>
       <div className='nav-container'>
         <img className='logo' src='/ZH-logo/profile.png' alt='logo' />
         <ul className='nav-links'>
