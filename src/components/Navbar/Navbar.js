@@ -30,7 +30,7 @@ const Navbar = () => {
         <img className='logo' src='/ZH-logo/profile.png' alt='logo' />
         <ul className='nav-links'>
           <li>
-            <a href='#'>About</a>
+            <a href='#about'>About</a>
           </li>
           <li>
             <a href='#'>Work</a>
