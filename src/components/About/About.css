@@ -4,5 +4,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: darkblue;
+  background: #f4f4f4;
+}
+
+.container h1 {
+  color: darkblue;
+  font-size: 45px;
 }

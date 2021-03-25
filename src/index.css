@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   margin: 0;
@@ -6,10 +9,6 @@ body {
   box-sizing: border-box;
   font-family: 'Playfair Display', serif;
   overflow-x: hidden;
-}
-
-p {
-  margin-top: 500px;
 }
 
 .btn {
@@ -38,6 +37,7 @@ p {
 .btn:hover {
   background-position: 100%;
   color: #fff;
+  cursor: pointer;
 }
 
 /* MOBILE */
