@@ -1,20 +1,57 @@
+/* SHOWCASE */
 .showcase {
-  /* max-width: 100vw;
-  max-height: 100vh; */
   height: 100vh;
   width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   overflow-x: hidden;
   background: #1f2227;
   background: -webkit-linear-gradient(top left, #1f2227 0%, #437aed 100%);
   background: linear-gradient(to bottom right, #1f2227 0%, #437aed 100%);
 }
 
+.showcase .showcase-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 5px;
+  padding: 8px;
+}
+
+.showcase .showcase-content h1 {
+  color: #fff;
+  font-size: 70px;
+  margin: 5px 0;
+}
+
+.showcase .showcase-content h1 span {
+  /* color: #3e72e2; */
+  color: #437bf5;
+}
+
+.showcase .showcase-content h5 {
+  color: #fff;
+  font-size: 26px;
+  margin: 8px 0 20px 0;
+}
+
 /* MOBILE */
-/* @media (max-width: 812px) {
-  .showcase {
-    overflow: hidden;
+@media (max-width: 812px) {
+  .showcase .showcase-content h1 {
+    font-size: 40px;
+    margin: 5px 0;
   }
-} */
+  .showcase .showcase-content h5 {
+    color: #fff;
+    font-size: 20px;
+    margin: 8px 0 20px 0;
+  }
+}
+
+/* FLOATING DOTS */
 .showcase .dot {
   width: 5px;
   height: 5px;
