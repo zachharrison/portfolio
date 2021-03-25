@@ -32,8 +32,13 @@
   color: #fff;
   font-weight: bold;
   text-decoration: none;
-  margin: 0 8px;
+  margin: 0 12px;
   font-size: 24px;
+  padding-bottom: 8px;
+}
+
+.nav-links li a:hover {
+  border-bottom: 4px solid #437aed;
 }
 
 /* MOBILE */
