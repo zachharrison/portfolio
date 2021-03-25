@@ -9,20 +9,40 @@
 }
 
 .about-content {
-  border: 3px solid black;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+.about-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 35%;
+  height: 40%;
+  border: 2px solid #325bb3;
+  box-shadow: 1px 3px 5px #325bb3;
+  padding: 36px;
+  background: #437aed;
+}
+
+.about-text p {
+  color: #fff;
+  /* color: darkblue; */
+  font-size: 24px;
+}
+
 .container h1 {
-  color: darkblue;
+  /* color: darkblue; */
+  color: #fff;
   font-size: 45px;
+  margin-bottom: 3px;
 }
 
 .bio-image {
-  width: 550px;
-  height: 600px;
-  filter: grayscale(100%);
+  width: 600px;
+  height: 650px;
+  filter: grayscale(85%);
   /* opacity: 0.9; */
 }
