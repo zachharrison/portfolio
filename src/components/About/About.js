@@ -16,10 +16,13 @@ const About = () => {
               dolor sit amet consectetur adipisicing elit. Sed dolore laborum
               tempore exercitationem autem explicabo in, neque est tempora nobis
               beatae ratione pariatur ducimus numquam expedita ea totam ut
-              excepturi fugiat fugit corporis odit iusto illo! Dolores
-              doloremque delectus reiciendis deleniti quae sapiente dignissimos
-              eius. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Accusantium nam voluptatem aspernatur deserunt doloremque totam?
+              excepturi fugiat fugit corporis odit iusto illo!
+              <br />
+              <br />
+              Dolores doloremque delectus reiciendis deleniti quae sapiente
+              dignissimos eius. Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Accusantium nam voluptatem aspernatur deserunt
+              doloremque totam?
             </p>
           </div>
           <img src='/bio-image.jpg' className='bio-image' alt='bio-image' />
