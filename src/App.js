@@ -3,15 +3,22 @@ import Showcase from './components/Showcase/Showcase';
 import About from './components/About/About';
 import Social from './components/Social/Social';
 import Work from './components/Work/Work';
+import FadeIn from './components/FadeIn/FadeIn';
 
 const App = () => {
   return (
     <>
       <Navbar />
       <Showcase />
-      <About />
+
+      <FadeIn direction='up' delay={2}>
+        <About />
+      </FadeIn>
+
       <Social />
-      <Work />
+      <FadeIn direction='left' delay={2}>
+        <Work />
+      </FadeIn>
     </>
   );
 };
