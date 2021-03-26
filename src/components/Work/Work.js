@@ -1,15 +1,10 @@
 import React from 'react';
 import './Work.css';
-// <header>
-//   <h1>
-//     Balkan Style <br /> <span>[ Portfolio Gallery ]</span>
-//   </h1>
-// </header>
-
 const Work = () => {
   return (
     <div className='grid-container'>
-      <div className='gallery'>
+      <h1>My Projects</h1>
+      <div id='work' className='gallery'>
         <div className='gallery-item'>
           <img
             className='gallery-image'
