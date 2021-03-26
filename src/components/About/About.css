@@ -43,6 +43,33 @@
   filter: grayscale(85%);
 }
 
+/* SMALL DESKTOP */
+@media (min-width: 815px) and (max-width: 1200px) {
+  .about-text {
+    width: 60vw;
+    height: 80vh;
+    padding: 8px;
+  }
+  .about-text p {
+    font-size: 20px;
+    padding: 3px 5px;
+  }
+  .container h1 {
+    font-size: 30px;
+    margin: 0;
+  }
+  .bio-image {
+    width: 400px;
+    height: 450px;
+    margin-top: 0;
+    margin-bottom: 5px;
+    margin-left: 5px;
+  }
+  .about-content {
+    margin-right: 3px;
+  }
+}
+
 /* MOBILE */
 @media (max-width: 812px) {
   .about-text {
