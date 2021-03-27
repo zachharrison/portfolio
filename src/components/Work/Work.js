@@ -4,8 +4,6 @@ import { projects } from '../../data';
 import './Work.css';
 
 const Work = () => {
-  const handleClick = () => {};
-
   return (
     <div className='grid-container'>
       <h1>My Projects</h1>
