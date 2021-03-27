@@ -40,21 +40,16 @@ h1 {
   transition: transform 400ms ease-out;
   z-index: 50;
 }
-/* .gallery-item:hover {
-  background: rgba(0, 0, 0, 0.4);
-} */
-
 .gallery-item .btn-dark {
   z-index: 100;
   position: absolute;
   opacity: 0;
   transition: 0.8s ease;
-  /* display: flex;
-  align-self: center; */
 }
 
-.gallery-image:hover {
-  transform: scale(1.15);
+.gallery-item:hover .gallery-image {
+  opacity: 0.4;
+  transition: 0.8s ease;
 }
 
 .gallery-item:hover .btn-dark {
