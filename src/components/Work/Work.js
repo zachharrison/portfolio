@@ -8,7 +8,7 @@ const Work = () => {
         <div className='gallery-item'>
           <img
             className='gallery-image'
-            src='/tofino.jpg'
+            src='/kustom/home-page.png'
             alt='project-image'
           />
         </div>
@@ -16,7 +16,7 @@ const Work = () => {
         <div className='gallery-item'>
           <img
             className='gallery-image'
-            src='/tofino.jpg'
+            src='/helperr/home-page.png'
             alt='project-image'
           />
         </div>
@@ -24,7 +24,7 @@ const Work = () => {
         <div className='gallery-item'>
           <img
             className='gallery-image'
-            src='/tofino.jpg'
+            src='/contact-keeper/home.png'
             alt='project-image'
           />
         </div>
@@ -32,7 +32,7 @@ const Work = () => {
         <div className='gallery-item'>
           <img
             className='gallery-image'
-            src='/tofino.jpg'
+            src='/scheduler/home-page.png'
             alt='project-image'
           />
         </div>
@@ -40,7 +40,7 @@ const Work = () => {
         <div className='gallery-item'>
           <img
             className='gallery-image'
-            src='/tofino.jpg'
+            src='/pizza-bytes/home-page.png'
             alt='project-image'
           />
         </div>
@@ -48,7 +48,7 @@ const Work = () => {
         <div className='gallery-item'>
           <img
             className='gallery-image'
-            src='/tofino.jpg'
+            src='/tweeter/home-page.png'
             alt='project-image'
           />
         </div>
