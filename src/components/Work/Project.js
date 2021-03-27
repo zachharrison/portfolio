@@ -34,7 +34,17 @@ const Project = ({ images, name, description }) => {
           <h1>{name}</h1>
           <p>{description}</p>
         </div>
-        <button onClick={toggleModal}>Close</button>
+        <div className='modal-btns'>
+          <a
+            className='btn-dark'
+            rel='noreferrer'
+            target='_blank'
+            href='https://github.com/zachharrison'
+          >
+            View Code
+          </a>
+          <button onClick={toggleModal}>X</button>
+        </div>
       </Modal>
     </div>
   );
