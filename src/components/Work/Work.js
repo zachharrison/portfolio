@@ -14,6 +14,8 @@ const Work = () => {
             name={project.name}
             images={project.images}
             description={project.description}
+            code={project.code}
+            website={project.website}
           />
         ))}
       </div>

@@ -4,7 +4,7 @@ import Modal from 'react-modal';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import { Carousel } from 'react-responsive-carousel';
 
-const Project = ({ images, name, description }) => {
+const Project = ({ images, name, description, code, website }) => {
   const [isOpen, setIsOpen] = useState(false);
   const toggleModal = () => setIsOpen(!isOpen);
 
@@ -35,14 +35,35 @@ const Project = ({ images, name, description }) => {
           <p>{description}</p>
         </div>
         <div className='modal-btns'>
-          <a
-            className='btn-dark'
-            rel='noreferrer'
-            target='_blank'
-            href='https://github.com/zachharrison'
-          >
-            View Code
-          </a>
+          {website ? (
+            <div className='btns'>
+              <a
+                className='btn-dark'
+                rel='noreferrer'
+                target='_blank'
+                href={website}
+              >
+                View Website
+              </a>
+              <a
+                className='btn-dark'
+                rel='noreferrer'
+                target='_blank'
+                href={code}
+              >
+                View Code
+              </a>
+            </div>
+          ) : (
+            <a
+              className='btn-dark'
+              rel='noreferrer'
+              target='_blank'
+              href={code}
+            >
+              View Code
+            </a>
+          )}
           <button onClick={toggleModal}>X</button>
         </div>
       </Modal>
