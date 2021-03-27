@@ -68,7 +68,9 @@ const Showcase = () => {
           Zach <span>Harrison</span>
         </h1>
         <h5>I'm a full-stack JavaScript developer.</h5>
-        <button className='btn'>My Work</button>
+        <a href='#work' className='btn showcase-btn'>
+          My Work
+        </a>
       </div>
     </div>
   );

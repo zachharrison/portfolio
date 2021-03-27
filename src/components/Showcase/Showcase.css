@@ -12,6 +12,17 @@
   background: linear-gradient(to bottom right, #1f2227 0%, #437aed 100%);
 }
 
+.showcase-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  height: 45px;
+  width: 130px;
+}
+
 .showcase .showcase-content {
   position: absolute;
   z-index: 1;

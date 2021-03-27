@@ -1,57 +1,22 @@
 import React from 'react';
+import Project from '../Project/Project';
 import './Work.css';
+
 const Work = () => {
+  const handleClick = () => {
+    console.log('clicked');
+  };
+
   return (
     <div className='grid-container'>
       <h1>My Projects</h1>
       <div id='work' className='gallery'>
-        <div className='gallery-item'>
-          <img
-            className='gallery-image'
-            src='/kustom/home-page.png'
-            alt='kustom-ecommerce'
-          />
-        </div>
-
-        <div className='gallery-item'>
-          <img
-            className='gallery-image'
-            src='/helperr/home-page.png'
-            alt='helperr'
-          />
-        </div>
-
-        <div className='gallery-item'>
-          <img
-            className='gallery-image'
-            src='/contact-keeper/home.png'
-            alt='contact-keeper'
-          />
-        </div>
-
-        <div className='gallery-item'>
-          <img
-            className='gallery-image'
-            src='/scheduler/home-page.png'
-            alt='scheduler'
-          />
-        </div>
-
-        <div className='gallery-item'>
-          <img
-            className='gallery-image'
-            src='/pizza-bytes/home-page.png'
-            alt='pizza-bytes'
-          />
-        </div>
-
-        <div className='gallery-item'>
-          <img
-            className='gallery-image'
-            src='/tweeter/home-page.png'
-            alt='tweeter'
-          />
-        </div>
+        <Project name='Kustom Ecommerce' image='/kustom/home-page.png' />
+        <Project name='Hand on Demand' image='/helperr/home-page.png' />
+        <Project name='Contact Keeper' image='/contact-keeper/home.png' />
+        <Project name='Scheduler' image='/scheduler/home-page.png' />
+        <Project name='Pizza Bytes' image='/pizza-bytes/home-page.png' />
+        <Project name='Tweeter' image='/tweeter/home-page.png' />
       </div>
     </div>
   );
