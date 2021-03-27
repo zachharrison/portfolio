@@ -9,7 +9,7 @@ const Work = () => {
           <img
             className='gallery-image'
             src='/kustom/home-page.png'
-            alt='project-image'
+            alt='kustom-ecommerce'
           />
         </div>
 
@@ -17,7 +17,7 @@ const Work = () => {
           <img
             className='gallery-image'
             src='/helperr/home-page.png'
-            alt='project-image'
+            alt='helperr'
           />
         </div>
 
@@ -25,7 +25,7 @@ const Work = () => {
           <img
             className='gallery-image'
             src='/contact-keeper/home.png'
-            alt='project-image'
+            alt='contact-keeper'
           />
         </div>
 
@@ -33,7 +33,7 @@ const Work = () => {
           <img
             className='gallery-image'
             src='/scheduler/home-page.png'
-            alt='project-image'
+            alt='scheduler'
           />
         </div>
 
@@ -41,7 +41,7 @@ const Work = () => {
           <img
             className='gallery-image'
             src='/pizza-bytes/home-page.png'
-            alt='project-image'
+            alt='pizza-bytes'
           />
         </div>
 
@@ -49,7 +49,7 @@ const Work = () => {
           <img
             className='gallery-image'
             src='/tweeter/home-page.png'
-            alt='project-image'
+            alt='tweeter'
           />
         </div>
       </div>
