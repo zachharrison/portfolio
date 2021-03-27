@@ -117,6 +117,12 @@ h1 {
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.75);
 }
+.modal-btns button {
+  background: transparent;
+  outline: none;
+  border: none;
+  font-size: 20px;
+}
 
 .ReactModal__Overlay {
   opacity: 0;
@@ -133,9 +139,37 @@ h1 {
 
 /* SMALLER DESTOP */
 @media (min-width: 1000px) and (max-width: 1400px) {
+  .modal-btns a {
+    height: 35px;
+    width: 120px;
+    font-size: 18px;
+    z-index: 500;
+  }
+  .modal-btns button {
+    z-index: 500;
+  }
   .gallery-item {
     width: 350px;
     height: 200px;
+  }
+  .modal {
+    width: 85%;
+    height: 90%;
+    /* overflow: hidden; */
+  }
+  .carousel {
+    width: 55%;
+    height: 55%;
+    margin-bottom: 150px;
+  }
+  .carousel div {
+    height: 425px;
+  }
+  .modal-content h1 {
+    font-size: 24px;
+  }
+  .modal-content p {
+    font-size: 16px;
   }
 }
 
@@ -154,5 +188,9 @@ h1 {
   h1 {
     font-weight: 400;
     font-size: 30px;
+  }
+  .modal {
+    width: 75%;
+    height: 50%;
   }
 }

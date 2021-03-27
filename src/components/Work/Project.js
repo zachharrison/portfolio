@@ -4,6 +4,8 @@ import Modal from 'react-modal';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import { Carousel } from 'react-responsive-carousel';
 
+// Modal.setAppElement('#root');
+
 const Project = ({ images, name, description, code, website }) => {
   const [isOpen, setIsOpen] = useState(false);
   const toggleModal = () => setIsOpen(!isOpen);
@@ -22,11 +24,12 @@ const Project = ({ images, name, description, code, website }) => {
         className='modal'
         overlayClassName='overlay'
         closeTimeoutMS={500}
+        appElement={document.getElementById('root')}
       >
-        <Carousel>
+        <Carousel className='carousel'>
           {images.map((image, index) => (
             <div key={index}>
-              <img src={image} alt={name} />
+              <img className='slide' src={image} alt={name} />
             </div>
           ))}
         </Carousel>
@@ -64,7 +67,9 @@ const Project = ({ images, name, description, code, website }) => {
               View Code
             </a>
           )}
-          <button onClick={toggleModal}>X</button>
+          <button onClick={toggleModal}>
+            <i className='fas fa-times' onClick={toggleModal} />
+          </button>
         </div>
       </Modal>
     </div>
