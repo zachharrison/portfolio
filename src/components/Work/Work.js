@@ -12,7 +12,7 @@ const Work = () => {
           <Project
             key={index}
             name={project.name}
-            image={project.image}
+            images={project.images}
             description={project.description}
           />
         ))}

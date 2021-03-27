@@ -4,7 +4,7 @@ import Modal from 'react-modal';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import { Carousel } from 'react-responsive-carousel';
 
-const Project = ({ image, name, description }) => {
+const Project = ({ images, name, description }) => {
   const [isOpen, setIsOpen] = useState(false);
   const toggleModal = () => setIsOpen(!isOpen);
 
@@ -13,7 +13,7 @@ const Project = ({ image, name, description }) => {
       <button className='btn-dark' onClick={toggleModal}>
         Learn More
       </button>
-      <img className='gallery-image' src={image} alt={name} />
+      <img className='gallery-image' src={images[0]} alt={name} />
 
       <Modal
         isOpen={isOpen}
@@ -24,15 +24,11 @@ const Project = ({ image, name, description }) => {
         closeTimeoutMS={500}
       >
         <Carousel>
-          <div>
-            <img src={image} />
-          </div>
-          <div>
-            <img src={image} />
-          </div>
-          <div>
-            <img src={image} />
-          </div>
+          {images.map((image, index) => (
+            <div key={index}>
+              <img src={image} alt={name} />
+            </div>
+          ))}
         </Carousel>
         <div className='modal-content'>
           <h1>{name}</h1>
