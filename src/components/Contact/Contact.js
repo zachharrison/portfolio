@@ -28,8 +28,8 @@ const Form = () => {
           id='message'
           cols='30'
           rows='10'
-        ></textarea>
-        <button>Submit</button>
+        />
+        <button className='form-btn'>Submit</button>
       </form>
     </div>
   );

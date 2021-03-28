@@ -57,7 +57,7 @@ textarea {
   border-radius: 3px;
 }
 
-button {
+.form-btn {
   height: 50px;
   font-size: 18px;
   width: 94%;
@@ -70,7 +70,7 @@ button {
   transition: 0.2s ease-in;
 }
 
-button:hover {
+.form-btn:hover {
   background: #437aed;
 }
 
@@ -103,7 +103,7 @@ button:hover {
     margin: 5px 0;
     font-size: 12px;
   }
-  button {
+  .form-btn {
     width: 100%;
   }
 }
