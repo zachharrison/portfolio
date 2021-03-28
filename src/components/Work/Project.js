@@ -4,8 +4,6 @@ import Modal from 'react-modal';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import { Carousel } from 'react-responsive-carousel';
 
-// Modal.setAppElement('#root');
-
 const Project = ({ images, name, description, code, website }) => {
   const [isOpen, setIsOpen] = useState(false);
   const toggleModal = () => setIsOpen(!isOpen);

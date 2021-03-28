@@ -142,20 +142,6 @@ h1 {
   opacity: 0;
 }
 
-/* SHORT SCREENS */
-/* @media (min-height: 430px) and (max-height: 630px) {
-  .grid-container {
-    min-height: 1100px;
-  }
-  .gallery {
-    height: 600px 0;
-  }
-  .gallery-item {
-    width: 300px;
-    height: 150px;
-  }
-} */
-
 /* SMALLER DESTOP */
 @media (min-width: 1000px) and (max-width: 1400px) {
   .modal-btns a {
