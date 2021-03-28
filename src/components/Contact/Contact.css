@@ -85,7 +85,7 @@ textarea {
 @media (min-width: 1000px) and (max-width: 1400px) {
   form {
     width: 55%;
-    height: 75%;
+    height: 65%;
   }
 }
 
@@ -96,7 +96,7 @@ textarea {
   }
   form {
     width: 55%;
-    height: 55%;
+    height: 45%;
   }
 
   h2 {
