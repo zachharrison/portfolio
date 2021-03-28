@@ -32,8 +32,9 @@
 }
 
 .social-icons li a i:hover {
-  background: -webkit-linear-gradient(#9c47fc, #356ad2);
-  background: linear-gradient(#9c47fc, #356ad2);
+  background: #1f2227;
+  background: -webkit-linear-gradient(top left, #2a303a 0%, #437aed 100%);
+  background: linear-gradient(to bottom right, #2a303a 0%, #437aed 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
