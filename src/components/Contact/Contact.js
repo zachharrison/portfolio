@@ -7,18 +7,21 @@ const Form = () => {
       <form autoComplete='off'>
         <h2>Want to work together?</h2>
         <input
+          className='form-group'
           autoComplete='off'
           type='text'
           name='name'
           placeholder='Your name'
         />
         <input
+          className='form-group'
           autoComplete='off'
           type='email'
           name='email'
           placeholder='Your email'
         />
         <textarea
+          className='form-group'
           placeholder='Enter your message here...'
           autoComplete='off'
           name='message'
