@@ -36,7 +36,7 @@ const Navbar = () => {
             <a href='#work'>Work</a>
           </li>
           <li>
-            <a href='#'>Contact</a>
+            <a href='#contact'>Contact</a>
           </li>
         </ul>
       </div>

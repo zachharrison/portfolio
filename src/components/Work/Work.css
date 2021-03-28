@@ -124,6 +124,11 @@ h1 {
   font-size: 20px;
 }
 
+.modal-btns button:hover {
+  color: #437aed;
+  cursor: pointer;
+}
+
 .ReactModal__Overlay {
   opacity: 0;
   transition: opacity 500ms ease-in-out;

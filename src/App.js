@@ -4,6 +4,7 @@ import About from './components/About/About';
 import Social from './components/Social/Social';
 import Work from './components/Work/Work';
 import FadeIn from './components/FadeIn/FadeIn';
+import Contact from './components/Contact/Contact';
 
 const App = () => {
   return (
@@ -16,8 +17,13 @@ const App = () => {
       </FadeIn>
 
       <Social />
+
       <FadeIn direction='left' delay={2}>
         <Work />
+      </FadeIn>
+
+      <FadeIn direction='up' delay={2}>
+        <Contact />
       </FadeIn>
     </>
   );
