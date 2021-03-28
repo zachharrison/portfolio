@@ -5,9 +5,9 @@ import './Work.css';
 
 const Work = () => {
   return (
-    <div className='grid-container'>
+    <div id='work' className='grid-container'>
       <h1>My Projects</h1>
-      <div id='work' className='gallery'>
+      <div className='gallery'>
         {projects.map((project, index) => (
           <Project
             key={index}

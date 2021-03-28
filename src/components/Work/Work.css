@@ -160,7 +160,6 @@ h1 {
   .modal {
     width: 85%;
     height: 90%;
-    /* overflow: hidden; */
   }
   .carousel {
     width: 55%;
@@ -168,7 +167,7 @@ h1 {
     margin-bottom: 150px;
   }
   .carousel div {
-    height: 425px;
+    height: 420px;
   }
   .modal-content h1 {
     font-size: 24px;
