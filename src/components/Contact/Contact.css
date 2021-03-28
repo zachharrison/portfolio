@@ -74,6 +74,14 @@ button:hover {
   background: #437aed;
 }
 
+/* SMALLER DESTOP */
+@media (min-width: 1000px) and (max-width: 1400px) {
+  form {
+    width: 55%;
+    height: 75%;
+  }
+}
+
 /* MOBILE */
 @media (max-width: 812px) {
   .form-container {
