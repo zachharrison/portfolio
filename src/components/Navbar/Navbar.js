@@ -5,10 +5,9 @@ import './Navbar.css';
 const Navbar = () => {
   const [prevScrollPos, setPrevScrollPos] = useState(0);
   const [visible, setVisible] = useState(true);
+  const currentScrollPos = window.pageYOffset;
 
   const handleScroll = debounce(() => {
-    const currentScrollPos = window.pageYOffset;
-
     setVisible(
       (prevScrollPos > currentScrollPos &&
         prevScrollPos - currentScrollPos > 70) ||
@@ -30,13 +29,28 @@ const Navbar = () => {
         <img className='logo' src='/ZH-logo/profile.png' alt='logo' />
         <ul className='nav-links'>
           <li>
-            <a href='#about'>About</a>
+            <a
+              className={currentScrollPos < 850 ? 'light-links' : 'dark-links'}
+              href='#about'
+            >
+              About
+            </a>
           </li>
           <li>
-            <a href='#work'>Work</a>
+            <a
+              className={currentScrollPos < 850 ? 'light-links' : 'dark-links'}
+              href='#work'
+            >
+              Work
+            </a>
           </li>
           <li>
-            <a href='#contact'>Contact</a>
+            <a
+              className={currentScrollPos < 850 ? 'light-links' : 'dark-links'}
+              href='#contact'
+            >
+              Contact
+            </a>
           </li>
         </ul>
       </div>

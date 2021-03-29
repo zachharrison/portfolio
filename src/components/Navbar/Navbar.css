@@ -6,6 +6,7 @@
   text-align: center;
   transition: top 0.6s;
   z-index: 5000;
+  /* background: darkblue; */
 }
 
 .nav-container {
@@ -30,12 +31,18 @@
 }
 
 .nav-links li a {
-  color: #fff;
   font-weight: bold;
   text-decoration: none;
   margin: 0 12px;
   font-size: 24px;
   padding-bottom: 8px;
+}
+
+.dark-links {
+  color: #1f2227;
+}
+.light-links {
+  color: #fff;
 }
 
 .nav-links li a:hover {
