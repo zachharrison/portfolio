@@ -116,4 +116,8 @@ textarea {
   .form-btn {
     width: 100%;
   }
+  textarea {
+    padding-top: 10px;
+    padding-bottom: 25px;
+  }
 }

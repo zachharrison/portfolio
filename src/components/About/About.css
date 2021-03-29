@@ -58,9 +58,10 @@
 /* SMALL DESKTOP */
 @media (min-width: 1000px) and (max-width: 1400px) {
   .about-text {
-    width: 60vw;
-    height: 80vh;
+    width: 30vw;
+    height: 30vh;
     padding: 8px;
+    text-align: center;
   }
   .about-text p {
     font-size: 20px;
@@ -85,23 +86,24 @@
 /* MOBILE */
 @media (max-width: 1000px) {
   .about-text {
-    width: 80vw;
-    height: 60vh;
-    padding: 6px;
+    width: 50vw;
+    height: 50vh;
+    padding: 8px;
+    text-align: center;
   }
   .about-text p {
-    font-size: 16px;
+    font-size: 18px;
     padding: 0 3px;
   }
   .container h1 {
-    font-size: 24px;
+    font-size: 26px;
     margin: 0;
   }
   .bio-image {
-    width: 200px;
-    height: 225px;
+    width: 220px;
+    height: 250px;
     margin-top: 0;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
   }
   .about-content {
     flex-direction: column-reverse;
