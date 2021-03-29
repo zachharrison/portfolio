@@ -2,7 +2,7 @@ import React from 'react';
 import './Showcase.css';
 const Showcase = () => {
   return (
-    <div className='showcase'>
+    <div id='showcase' className='showcase'>
       <div className='dotWrapper dotWrapper-1'>
         <div className='dot dot-1'></div>
       </div>

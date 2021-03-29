@@ -33,7 +33,9 @@ const Navbar = () => {
   return (
     <nav className='navbar' style={{ top: visible ? '0' : '-120px' }}>
       <div className='nav-container'>
-        <img className='logo' src='/ZH-logo/profile.png' alt='logo' />
+        <a href='#showcase'>
+          <img className='logo' src='/ZH-logo/profile.png' alt='logo' />
+        </a>
         <ul className='nav-links'>
           <li>
             <a

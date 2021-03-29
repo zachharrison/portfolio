@@ -13,7 +13,7 @@ const About = () => {
             date tools in the industry.
           </p>
         </div>
-        <img src='/bio-image.jpg' className='bio-image' alt='bio-image' />
+        <img src='/bio-image.jpg' className='bio-image' alt='bio' />
       </div>
     </div>
   );

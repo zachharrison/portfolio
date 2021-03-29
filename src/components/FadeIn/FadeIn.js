@@ -1,31 +1,6 @@
-import React, { useEffect, useState, useRef } from 'react';
+import React, { useEffect, useRef } from 'react';
 import './FadeIn.css';
-import { debounce } from '../../utils/helpers';
 import { gsap } from 'gsap';
-
-// const FadeIn = (props) => {
-//   const [visible, setVisible] = useState(true);
-//   const domRef = useRef();
-//   const currentScrollPos = window.pageYOffset;
-//   useEffect(
-//     debounce(() => {
-//       const observer = new IntersectionObserver((entries) => {
-//         entries.forEach((entry) => setVisible(entry.isIntersecting));
-//       });
-//       if (observer.trackVisibility === false) {
-//         console.log('something');
-//       }
-//       observer.observe(domRef.current);
-//       return () => observer.unobserve(domRef.current);
-//     }, [setVisible]),
-//     100
-//   );
-//   return (
-//     <div className={`fade-in ${visible ? 'visible' : ''}`} ref={domRef}>
-//       {props.children}
-//     </div>
-//   );
-// };
 
 const FadeIn = ({
   children,
