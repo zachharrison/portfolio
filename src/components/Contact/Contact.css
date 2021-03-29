@@ -12,7 +12,7 @@
 form {
   display: flex;
   align-items: center;
-  /* justify-content: center; */
+  justify-content: center;
   flex-direction: column;
   background: #eee;
   width: 30%;
@@ -20,6 +20,9 @@ form {
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
   border-radius: 3px;
   padding: 20px;
+}
+[hidden] {
+  display: none !important;
 }
 
 h2 {

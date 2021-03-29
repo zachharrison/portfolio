@@ -4,7 +4,8 @@ import './Contact.css';
 const Form = () => {
   return (
     <div id='contact' className='form-container'>
-      <form autoComplete='off'>
+      <form name='contact' method='POST' data-netlify='true'>
+        <input type='hidden' name='form-name' value='contact' />
         <h2>Want to work together?</h2>
         <input
           className='form-group'
@@ -29,7 +30,9 @@ const Form = () => {
           cols='30'
           rows='10'
         />
-        <button className='form-btn'>Submit</button>
+        <button type='submit' className='form-btn'>
+          Submit
+        </button>
       </form>
     </div>
   );
