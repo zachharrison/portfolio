@@ -5,14 +5,21 @@ import './Navbar.css';
 const Navbar = () => {
   const [prevScrollPos, setPrevScrollPos] = useState(0);
   const [visible, setVisible] = useState(true);
-  const currentScrollPos = window.pageYOffset;
+  const [linkColor, setLinkColor] = useState('light');
 
   const handleScroll = debounce(() => {
+    const currentScrollPos = window.pageYOffset;
     setVisible(
       (prevScrollPos > currentScrollPos &&
         prevScrollPos - currentScrollPos > 70) ||
         currentScrollPos < 10
     );
+
+    if (currentScrollPos > 1000) {
+      setLinkColor('dark');
+    } else {
+      setLinkColor('light');
+    }
 
     setPrevScrollPos(currentScrollPos);
   }, 100);
@@ -30,7 +37,7 @@ const Navbar = () => {
         <ul className='nav-links'>
           <li>
             <a
-              className={currentScrollPos < 850 ? 'light-links' : 'dark-links'}
+              className={linkColor === 'light' ? 'light-links' : 'dark-links'}
               href='#about'
             >
               About
@@ -38,7 +45,7 @@ const Navbar = () => {
           </li>
           <li>
             <a
-              className={currentScrollPos < 850 ? 'light-links' : 'dark-links'}
+              className={linkColor === 'light' ? 'light-links' : 'dark-links'}
               href='#work'
             >
               Work
@@ -46,7 +53,7 @@ const Navbar = () => {
           </li>
           <li>
             <a
-              className={currentScrollPos < 850 ? 'light-links' : 'dark-links'}
+              className={linkColor === 'light' ? 'light-links' : 'dark-links'}
               href='#contact'
             >
               Contact
