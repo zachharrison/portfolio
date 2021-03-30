@@ -78,6 +78,14 @@ textarea {
 }
 
 /* SHORT SCREENS */
+@media (max-height: 830px) {
+  form {
+    min-height: 500px;
+  }
+  textarea {
+    min-height: 50px;
+  }
+}
 @media (min-height: 430px) and (max-height: 630px) {
   .form-container {
     min-height: 600px;

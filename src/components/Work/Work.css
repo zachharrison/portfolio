@@ -143,6 +143,16 @@ h1 {
 }
 
 /* SMALLER DESTOP */
+@media (max-width: 1100px) and (max-height: 900px) {
+  .modal {
+    max-height: 80%;
+  }
+
+  .gallery-item {
+    max-width: 280px;
+    max-height: 180px;
+  }
+}
 @media (min-width: 1000px) and (max-width: 1400px) {
   .modal-btns a {
     height: 35px;
