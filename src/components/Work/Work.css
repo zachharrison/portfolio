@@ -143,6 +143,16 @@ h1 {
 }
 
 /* SMALLER DESTOP */
+@media (max-width: 1100px) and (max-height: 900px) {
+  .modal {
+    max-height: 80%;
+  }
+
+  .gallery-item {
+    max-width: 280px;
+    max-height: 180px;
+  }
+}
 @media (min-width: 1000px) and (max-width: 1400px) {
   .modal-btns a {
     height: 35px;
@@ -154,20 +164,12 @@ h1 {
     z-index: 500;
   }
   .gallery-item {
-    width: 350px;
+    width: 320px;
     height: 200px;
   }
   .modal {
     width: 85%;
     height: 90%;
-  }
-  .carousel {
-    width: 55%;
-    height: 55%;
-    margin-bottom: 150px;
-  }
-  .carousel div {
-    height: 420px;
   }
   .modal-content h1 {
     font-size: 24px;
@@ -203,8 +205,20 @@ h1 {
   }
 }
 
-@media (max-width: 1000px) and (max-height: 667px) {
+/* SHORT PHONES */
+@media (max-width: 375px) and (max-height: 667px) {
   .grid-container {
     height: 225vh;
+  }
+}
+
+@media (max-width: 320px) and (max-height: 568px) {
+  .grid-container {
+    height: 250vh;
+  }
+
+  .gallery-item {
+    width: 275px;
+    height: 175px;
   }
 }

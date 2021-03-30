@@ -28,7 +28,7 @@ const Navbar = () => {
     window.addEventListener('scroll', handleScroll);
 
     return () => window.removeEventListener('scroll', handleScroll);
-  }, [visible, prevScrollPos, handleScroll]);
+  }, [visible, prevScrollPos, handleScroll, linkColor]);
 
   return (
     <nav className='navbar' style={{ top: visible ? '0' : '-120px' }}>
