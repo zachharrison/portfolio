@@ -161,14 +161,14 @@ h1 {
     width: 85%;
     height: 90%;
   }
-  .carousel {
+  /* .carousel {
     width: 55%;
     height: 55%;
     margin-bottom: 150px;
-  }
-  .carousel div {
+  } */
+  /* .carousel div {
     height: 420px;
-  }
+  } */
   .modal-content h1 {
     font-size: 24px;
   }
