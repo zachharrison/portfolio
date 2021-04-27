@@ -10,7 +10,7 @@ const projects = [
     ],
     description:
       'E-commerce clothing store built with the MERN stack, Redux, and the PayPal API.',
-    website: 'kustom-ecommerce.herokuapp.com/',
+    website: 'https://kustom-ecommerce.herokuapp.com/',
     code: 'https://github.com/zachharrison/kustom_ecommerce',
   },
   {
