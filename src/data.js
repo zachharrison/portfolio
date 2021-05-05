@@ -1,5 +1,20 @@
 const projects = [
   {
+    name: 'DevFeed',
+    images: [
+      '/devfeed/developers.png',
+      '/devfeed/dashboard.png',
+      '/devfeed/profile.png',
+      '/devfeed/chat.png',
+      '/devfeed/new-post.png',
+      '/devfeed/comments.png',
+    ],
+    description:
+      'Social Network for developers built with the MERN stack, Socketio, GitHub API, Redux, and MongoDB.',
+    website: null,
+    code: 'https://github.com/zachharrison/dev_feed',
+  },
+  {
     name: 'Kustom Ecommerce',
     images: [
       '/kustom/home-page.png',
@@ -66,19 +81,6 @@ const projects = [
       'An app for ordering pizzas. Customers can customize orders, owners can customize the menu. When a customer creates a new order they will receive a text message to their cell phone when their order is ready for pick up. This app was built with Javascript, NodeJS, Express, HTML5/CSS, PSQL, and the Twilio API.',
     website: null,
     code: 'https://github.com/zachharrison/pizza-bytes',
-  },
-  {
-    name: 'Tweeter',
-    images: [
-      '/tweeter/home-page.png',
-      '/tweeter/new-tweet.png',
-      '/tweeter/hover-tweet.png',
-      '/tweeter/responsive-design.png',
-    ],
-    description:
-      'A simple Twitter clone, where a user can create new tweets and watch their feed update in real time. Tweeter was built with HTML, CSS, JavaScript, Node, Express, and AJAX.',
-    website: null,
-    code: 'https://github.com/zachharrison/tweeter',
   },
 ];
 
