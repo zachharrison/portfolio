@@ -11,7 +11,7 @@ const projects = [
     ],
     description:
       'Social Network for developers built with the MERN stack, Socketio, GitHub API, Redux, and MongoDB.',
-    website: null,
+    website: 'https://dev-feed-social.herokuapp.com/',
     code: 'https://github.com/zachharrison/dev_feed',
   },
   {
