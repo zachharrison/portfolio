@@ -67,7 +67,7 @@ const Showcase = () => {
         <h1>
           Zach <span>Harrison</span>
         </h1>
-        <h5>I'm a full-stack web developer.</h5>
+        <h5>Frontend Web Developer.</h5>
         <a href='#work' className='btn showcase-btn'>
           My Work
         </a>

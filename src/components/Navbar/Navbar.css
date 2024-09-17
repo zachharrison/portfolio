@@ -5,7 +5,7 @@
   top: 0;
   text-align: center;
   transition: top 0.6s;
-  z-index: 5000;
+  z-index: 50;
   /* background: darkblue; */
 }
 
@@ -31,10 +31,10 @@
 }
 
 .nav-links li a {
-  font-weight: bold;
+  font-weight: 300;
   text-decoration: none;
   margin: 0 12px;
-  font-size: 24px;
+  font-size: 22px;
   padding-bottom: 8px;
 }
 
@@ -46,7 +46,7 @@
 }
 
 .nav-links li a:hover {
-  border-bottom: 4px solid #437aed;
+  border-bottom: 2px solid #437aed;
 }
 
 /* MOBILE */

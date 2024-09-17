@@ -1,0 +1,14 @@
+.skills-container {
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-image: url('./background.png');
+  background-size: cover;
+  background-position: bottom;
+  background: #fff;
+  gap: 20px;
+  padding: 40px;
+  width: 100%;
+}
