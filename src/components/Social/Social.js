@@ -14,15 +14,7 @@ const Social = () => {
             <i className='fab fa-github' />
           </a>
         </li>
-        <li>
-          <a
-            rel='noreferrer'
-            target='_blank'
-            href='https://www.instagram.com/zach__harrison/'
-          >
-            <i className='fab fa-instagram' />
-          </a>
-        </li>
+
         <li>
           <a
             rel='noreferrer'
@@ -38,7 +30,7 @@ const Social = () => {
             target='_blank'
             href='https://twitter.com/Zach__Harrison'
           >
-            <i className='fab fa-twitter' />
+            <i class='fa-brands fa-x-twitter'></i>
           </a>
         </li>
       </ul>

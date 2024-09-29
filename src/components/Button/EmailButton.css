@@ -1,0 +1,30 @@
+.email-logo {
+  width: 30px;
+}
+
+.email-text-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  /* padding: 10px; */
+  gap: 10px;
+  height: max-content;
+  width: max-content;
+  margin: auto;
+}
+
+.email-text-container .button-text {
+  will-change: transform;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  height: 100%;
+  width: 100%;
+}
+
+.email-text-container .fa-envelope {
+  will-change: transform;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}

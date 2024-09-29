@@ -1,8 +1,44 @@
-import React from 'react';
+import React, { useState } from 'react';
+import Modal from 'react-modal';
 import './Showcase.css';
 const Showcase = () => {
+  const [isOpen, setIsOpen] = useState(false);
+  const toggleModal = () => {
+    setIsOpen(!isOpen);
+  };
   return (
     <div id='showcase' className='showcase'>
+      <Modal
+        zIndex={2}
+        isOpen={isOpen}
+        onRequestClose={toggleModal}
+        style={{
+          content: {
+            zIndex: '2',
+            width: '90%',
+            height: '90%',
+            margin: 'auto',
+            padding: '0px',
+            borderRadius: '12px',
+            overflow: 'hidden',
+          },
+        }}
+      >
+        <iframe
+          className='iframe'
+          style={{
+            borderRadius: '12px',
+            border: 'none',
+            width: '100%',
+
+            zIndex: 50000000,
+          }}
+          src={`resume.pdf#zoom=120`}
+          width='100%'
+          height='100%'
+          title='Resume'
+        ></iframe>
+      </Modal>
       <div className='dotWrapper dotWrapper-1'>
         <div className='dot dot-1'></div>
       </div>
@@ -68,8 +104,8 @@ const Showcase = () => {
           Zach <span>Harrison</span>
         </h1>
         <h5>Frontend Web Developer.</h5>
-        <a href='#work' className='btn showcase-btn'>
-          My Work
+        <a onClick={toggleModal} className='btn showcase-btn'>
+          Resume
         </a>
       </div>
     </div>

@@ -48,14 +48,6 @@ const Navbar = () => {
           <li>
             <a
               className={linkColor === 'light' ? 'light-links' : 'dark-links'}
-              href='#work'
-            >
-              Work
-            </a>
-          </li>
-          <li>
-            <a
-              className={linkColor === 'light' ? 'light-links' : 'dark-links'}
               href='#contact'
             >
               Contact

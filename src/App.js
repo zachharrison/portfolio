@@ -19,9 +19,11 @@ const App = () => {
       );
 
       if (modalOverlay) {
-        body.style.overflow = 'hidden'; // Disable scrolling
+        body.style.overflow = 'hidden';
+        body.style.scrollbarGutter = 'stable';
       } else {
-        body.style.overflow = ''; // Re-enable scrolling
+        body.style.overflow = '';
+        body.style.scrollbarGutter = '';
       }
     };
 
@@ -49,9 +51,9 @@ const App = () => {
         <About />
       </FadeIn>
 
-      {/* <FadeIn direction='left' delay={2}>
+      <FadeIn direction='left' delay={2}>
         <Skills />
-      </FadeIn> */}
+      </FadeIn>
 
       {/* <FadeIn direction='left' delay={2}>
         <Work />
