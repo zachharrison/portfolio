@@ -1,9 +1,12 @@
 import React from 'react';
 
 const FigmaIcon = () => {
-  return (
-    <>
-      <svg
+  return <img src='/figma.png' alt='figma-logo' />;
+};
+
+export default FigmaIcon;
+{
+  /* <svg
         viewBox='-50 0 300 300'
         id='Layer_1'
         xmlns='http://www.w3.org/2000/svg'
@@ -47,9 +50,5 @@ const FigmaIcon = () => {
             d='M200 150c0 27.6-22.4 50-50 50s-50-22.4-50-50 22.4-50 50-50 50 22.4 50 50z'
           ></path>
         </g>
-      </svg>
-    </>
-  );
-};
-
-export default FigmaIcon;
+      </svg> */
+}
