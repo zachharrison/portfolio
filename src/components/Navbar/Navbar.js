@@ -5,20 +5,23 @@ import './Navbar.css';
 const Navbar = () => {
   const [prevScrollPos, setPrevScrollPos] = useState(0);
   const [visible, setVisible] = useState(true);
-  const [linkColor, setLinkColor] = useState('light');
+
+  const [backgroundColor, setBackgroundColor] = useState('transparent');
 
   const handleScroll = debounce(() => {
     const currentScrollPos = window.pageYOffset;
+    console.log('The current scroll position is ', currentScrollPos);
     setVisible(
       (prevScrollPos > currentScrollPos &&
         prevScrollPos - currentScrollPos > 70) ||
         currentScrollPos < 10
     );
 
-    if (currentScrollPos > 1000) {
-      setLinkColor('dark');
+    if (currentScrollPos > 529) {
+      console.log(currentScrollPos, backgroundColor);
+      setBackgroundColor('#2e5195');
     } else {
-      setLinkColor('light');
+      setBackgroundColor('transparent');
     }
 
     setPrevScrollPos(currentScrollPos);
@@ -28,28 +31,28 @@ const Navbar = () => {
     window.addEventListener('scroll', handleScroll);
 
     return () => window.removeEventListener('scroll', handleScroll);
-  }, [visible, prevScrollPos, handleScroll, linkColor]);
+  }, [visible, prevScrollPos, handleScroll]);
 
   return (
-    <nav className='navbar' style={{ top: visible ? '0' : '-120px' }}>
+    <nav
+      className='navbar'
+      style={{
+        top: visible ? '0' : '-300px',
+        backgroundColor: backgroundColor,
+      }}
+    >
       <div className='nav-container'>
         <a href='#showcase'>
           <img className='logo' src='/ZH-logo/profile.png' alt='logo' />
         </a>
         <ul className='nav-links'>
           <li>
-            <a
-              className={linkColor === 'light' ? 'light-links' : 'dark-links'}
-              href='#about'
-            >
+            <a className={'light-links'} href='#about'>
               About
             </a>
           </li>
           <li>
-            <a
-              className={linkColor === 'light' ? 'light-links' : 'dark-links'}
-              href='#contact'
-            >
+            <a className='light-links' href='#contact'>
               Contact
             </a>
           </li>

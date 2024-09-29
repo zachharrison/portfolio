@@ -38,8 +38,10 @@ const Skills = () => {
     <div className='skills-container'>
       <h1 className='skills-header'>Skills</h1>
       <div className='skills-grid'>
-        {skills.map((skill) => (
-          <div className='icon-container'>{skill}</div>
+        {skills.map((skill, idx) => (
+          <div key={skill + idx} className='icon-container'>
+            {skill}
+          </div>
         ))}
       </div>
     </div>

@@ -30,7 +30,7 @@ const Social = () => {
             target='_blank'
             href='https://twitter.com/Zach__Harrison'
           >
-            <i class='fa-brands fa-x-twitter'></i>
+            <i className='fa-brands fa-x-twitter'></i>
           </a>
         </li>
       </ul>
